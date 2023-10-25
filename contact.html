@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Responsive Multipage Education Website Using HTML, CSS & JavaScript
+    </title>
+    <!-- Font Awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Material Icons CDN  -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <!-- Custome CSS link  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+  <body>
+    <!-- =============== NAVBAR =============== -->
+    <nav>
+      <div class="container nav-container">
+        <a href="index.html"><h4>UMA</h4></a>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn">
+          <span class="material-icons-sharp">menu</span>
+        </button>
+        <button id="close-menu-btn">
+          <span class="material-icons-sharp">close</span>
+        </button>
+      </div>
+    </nav>
+    <!-- ================== END OF NAVBAR ==============  -->
+    <section class="contact">
+        <div class="container contact-container">
+            <aside class="container-aside">
+                <div class="aside-image">
+                    <img src="./images/contact.svg">
+                </div>
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo porro cum, quae facere unde minus.</p>
+                <ul class="contact-details">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <h5>+91 9876543210</h5>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-envelope"></i>
+                        <h5>support@uma.com</h5>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Kolkata, West Bengal, India</h5>
+                    </li>                    
+                </ul>
+                <ul class="contact-socials">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+            </aside>
+            <!-- ============ FORM ============= -->
+            <form class="contact-form">
+                <div class="from-name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </div>
+                    <input type="email" name="Email Address" placeholder="Your Emil Address" required>
+                    <textarea name="Message" rows="7" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>                
+            </form>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============= -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-1">
+              <a href="index.html" class="footer-logo"><h4>UMA</h4></a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos
+                veniam cumque temporibus, delectus repudiandae nesciunt.
+              </p>
+            </div>
+            <div class="footer-2">
+              <h4>Permalinks</h4>
+              <ul class="permalinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html"></a>Courses</li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-3">
+              <h4>Primacy</h4>
+              <ul class="privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+              </ul>
+            </div>
+            <div class="footer-4">
+              <h4>Contact Us</h4>
+              <div>
+                <p>+91 9876543210</p>
+                <p>contact@uma.com</p>
+              </div>
+              <div class="footer-socials">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <small>Copyright &copy;2023 Uma</small>
+          </div>
+        </footer>
+        <!-- ========== END OF FOOTER ============= -->
+    
+        <!-- Custome JS file -->
+        <script src="./index.js"></script>
+    
+      </body>
+    </html>
